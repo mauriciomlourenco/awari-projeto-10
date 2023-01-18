@@ -1,0 +1,26 @@
+.list-item-wrapper {
+  background-color: white;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item-title {
+  font-size: 18px;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.list-item-img-container {
+  width: 100%;
+  height: 254px;
+}
+
+.list-item-img {
+  width: 100%;
+}
