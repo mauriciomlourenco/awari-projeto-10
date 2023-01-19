@@ -1,0 +1,15 @@
+.heart{
+  cursor:pointer;
+  fill: gray;
+
+}
+
+.heart:hover{
+  fill: tomato;
+
+}
+
+.heart-selected {
+  fill:red
+}
+

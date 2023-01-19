@@ -1,12 +1,12 @@
-import { useEffect, useState } from 'react'
-import './App.css'
+import { useEffect, useState } from 'react';
+import './App.css';
 import List from './components/List';
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
 
   useEffect(() => {
-    console.log('App')
+    console.log('App');
 
     fetch('https://pokeapi.co/api/v2/pokemon')
       .then((response) => response.json())
@@ -16,7 +16,7 @@ function App() {
         setPokemons(results);
       })
       .catch(() => {
-        console.log("Van't fetch API.")
+        console.log('Can\'t fetch API.');
       });
   }, []);
 
@@ -28,7 +28,7 @@ function App() {
     <div>
       <List items={pokemons} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

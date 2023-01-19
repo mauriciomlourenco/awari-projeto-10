@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .list-item-title {
@@ -23,4 +24,11 @@
 
 .list-item-img {
   width: 100%;
+}
+
+.list-item-heart-wrapper {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 22px;
 }
